@@ -1,0 +1,55 @@
+.types {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.type {
+    padding: 5px;
+    background-color: yellow;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+.normal {
+    background-color: gray;
+}
+
+.fighting {
+    background-color: brown;
+}
+
+.flying {
+    background-color: skyblue;
+}
+
+.poison {
+    background-color: purple;
+}
+
+.ground {
+    background-color: chocolate;
+}
+
+.rock {
+    background-color: darkgrey;
+}
+
+.bug {
+    background-color: darkcyan;
+}
+
+.fire {
+    background-color: darkred;
+}
+
+.grass {
+    background-color: greenyellow;
+}
+
+.water {
+    background-color: aqua;
+}
+
+.default {
+    background-color: yellow;
+}

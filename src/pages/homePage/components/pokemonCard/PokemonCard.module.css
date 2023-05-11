@@ -1,0 +1,16 @@
+.card {
+    border: 1px solid #000;
+}
+
+.image {
+    display: block;
+    margin: 20px auto;
+    width: 140px;
+}
+
+.name {
+    text-align: center;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}

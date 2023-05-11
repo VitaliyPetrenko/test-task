@@ -1,0 +1,21 @@
+.title {
+    width: 65%;
+    text-align: center;
+}
+
+.table {
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.table td {
+    border: 1px solid black;
+}
+
+.card {
+    width: 200px;
+    margin-left: 60px;
+    padding: 5px;
+}

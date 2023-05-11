@@ -1,0 +1,45 @@
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.list {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 640px;
+    flex-shrink: 0;
+}
+
+.detailedInfo {
+    top: 10px;
+    position: sticky;
+    height: 300px;
+}
+
+.loadMore {
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    background-color: #34a4eb;
+    cursor: pointer;
+}
+
+.card {
+    padding: 5px;
+    margin: 0 20px 20px 0;
+    width: 200px;
+    height: 300px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+.card:nth-child(3n) {
+    margin-right: 0;
+}
