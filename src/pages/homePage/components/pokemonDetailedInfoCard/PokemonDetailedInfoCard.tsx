@@ -1,14 +1,19 @@
 import React from 'react';
+import cn from 'classnames';
 
 import { PokemonItem } from '../../../../models/pokemon';
 import PokemonCard from '../pokemonCard/PokemonCard';
 
 import styles from './PokemonDetailedInfoCard.module.css';
 
-export default function PokemonDetailedInfoCard({ data }: { data: PokemonItem }) {
+type PokemonDetailedInfoCardType = { data: PokemonItem | null; className?: string };
+
+export default function PokemonDetailedInfoCard({ data, className }: PokemonDetailedInfoCardType) {
+  if (!data) return null;
+
   return (
     <PokemonCard
-      className={styles.card}
+      className={cn(styles.card, className)}
       name={data?.name}
       src={data?.sprites?.front_default}
       content={
